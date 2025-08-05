@@ -2,7 +2,7 @@
 
 Stuck on a LeetCode problem? LeetCode Gemini Hints is a simple, powerful Chrome extension that provides you with on-demand, conceptual hints directly from Google's Gemini AI. It acts as your personal coding coach, guiding you toward the solution without giving it away.
 
-![Extension in action]) ## Features
+![Extension in action] ## Features
 
 * **On-Demand Hints**: A clean, floating hint button (`💡`) appears on every LeetCode problem page.
 * **Context-Aware**: The extension reads the problem title and description to provide relevant hints.
@@ -61,6 +61,26 @@ This extension requires a personal API key to communicate with the Gemini AI.
 4.  A browser prompt will appear asking for your API key. Paste the key you copied from Google AI Studio into the text box and click OK.
 
 That's it! The extension is now fully configured. This is a one-time setup; the extension will securely remember your key for all future requests.
+
+---
+
+### How to Change or Re-initialize Your API Key
+
+If your API key stops working (e.g., it was deleted or you have exceeded your quota), you will see an error message in the hints modal. Because an (invalid) key is still saved, you won't be automatically prompted for a new one.
+
+To fix this, you must manually delete the old key to re-trigger the setup prompt.
+
+1.  Navigate back to the extensions page at `chrome://extensions`.
+2.  Find the **LeetCode Gemini Hints** card and click the **Details** button.
+3.  Click the link that says **Service worker**. This will open Chrome's DevTools for the extension.
+4.  In the DevTools window, go to the **Application** tab.
+5.  In the left-hand menu under the "Storage" section, expand **Local Storage**.
+6.  Click on the item below it, which will look like `chrome-extension://[some-long-id]`.
+7.  In the main panel, you will see a `geminiApiKey` entry. Right-click on this row and select **Delete**.
+8.  Close the DevTools window.
+9.  Go back to any LeetCode problem page and click the "💡" hint button again. You will now be prompted to enter your new API key, just like in the initial setup.
+
+---
 
 ## How to Use
 
