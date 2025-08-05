@@ -2,7 +2,7 @@
 
 Stuck on a LeetCode problem? LeetCode Gemini Hints is a simple, powerful Chrome extension that provides you with on-demand, conceptual hints directly from Google's Gemini AI. It acts as your personal coding coach, guiding you toward the solution without giving it away.
 
-![Extension in action](https://i.imgur.com/your-demo-image.gif) ## Features
+![Extension in action]) ## Features
 
 * **On-Demand Hints**: A clean, floating hint button (`💡`) appears on every LeetCode problem page.
 * **Context-Aware**: The extension reads the problem title and description to provide relevant hints.
@@ -20,7 +20,7 @@ Follow these steps carefully to get the extension up and running in your browser
 2.  Click the green `<> Code` button.
 3.  Select **Download ZIP** from the dropdown menu.
 
-![Download ZIP](https://i.imgur.com/e55G6b2.png)
+![Download ZIP]
 
 ### Step 2: Unpack the ZIP File
 
@@ -35,7 +35,7 @@ Follow these steps carefully to get the extension up and running in your browser
 2.  Navigate to the extensions page by typing `chrome://extensions` in your address bar and pressing Enter.
 3.  In the top-right corner of the extensions page, toggle on **Developer mode**.
 
-![Developer Mode](https://i.imgur.com/OVeN5a3.png)
+![Developer Mode]
 
 4.  Three new buttons will appear. Click on **Load unpacked**.
 5.  A file selection dialog will open. Navigate to and select the folder where you extracted the extension files (the folder that contains `manifest.json`, `content.js`, etc.).
@@ -51,7 +51,7 @@ This extension requires a personal API key to communicate with the Gemini AI.
 3.  Click the **Create API key** button.
 4.  Your new API key will be generated. Click the copy icon to copy it to your clipboard. Keep this key safe.
 
-![Get API Key](https://i.imgur.com/uT8A92w.png)
+![Get API Key]
 
 ### Step 5: Final Configuration
 
