@@ -105,7 +105,3 @@ The extension is built with several components that work together:
 ## Contributing
 
 Contributions are welcome! If you have ideas for new features or improvements, feel free to fork the repository and submit a pull request.
-
-## Disclaimer
-
-This is an unofficial, third-party tool and is not affiliated with LeetCode or Google. Please use the hints responsibly as a learning aid to supplement your problem-solving process.
