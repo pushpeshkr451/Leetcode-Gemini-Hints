@@ -2,7 +2,7 @@
 
 Stuck on a LeetCode problem? LeetCode Gemini Hints is a simple, powerful Chrome extension that provides you with on-demand, conceptual hints directly from Google's Gemini AI. It acts as your personal coding coach, guiding you toward the solution without giving it away.
 
-![Extension in action] ## Features
+ ## Features
 
 * **On-Demand Hints**: A clean, floating hint button (`💡`) appears on every LeetCode problem page.
 * **Context-Aware**: The extension reads the problem title and description to provide relevant hints.
