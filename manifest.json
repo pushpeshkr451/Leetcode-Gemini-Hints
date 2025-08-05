@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "LeetCode Gemini Hints",
+    "version": "1.0",
+    "description": "Get unique, helpful hints for LeetCode problems from Gemini.",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://leetcode.com/problems/*",
+      "https://generativelanguage.googleapis.com/*"
+    ],
+    "background": {
+      "service_worker": "service-worker.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://leetcode.com/problems/*"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ]
+  }
+  
