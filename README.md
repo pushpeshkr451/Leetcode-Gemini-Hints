@@ -88,7 +88,7 @@ To fix this, you must manually delete the old key to re-trigger the setup prompt
 The extension is built with several components that work together:
 
 * **`manifest.json`**: This is the core configuration file for the extension. It defines the extension's name, permissions (like `storage` for the API key and `scripting` to run on LeetCode pages), and points to the other files.
-* **`content.js`**: This script is injected directly into LeetCode problem pages. Its responsibilities are:
+* **`content.js`**: This script is injected directly into LeetCode problem pages. Its responsibilities are:-
     * Creating the floating hint button (`💡`) and the modal window.
     * Scraping the problem's title and description from the page when the button is clicked.
     * Sending this information to the `service-worker` to request a hint.
