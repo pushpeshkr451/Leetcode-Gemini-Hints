@@ -26,7 +26,7 @@ Follow these steps carefully to get the extension up and running in your browser
 1.  Locate the downloaded `.zip` file on your computer.
 2.  Unzip or extract its contents into a permanent folder that you won't delete. For example, you could create a folder named `chrome-extensions` in your Documents.
 
-> **Important**: You must extract the files. The extension cannot be loaded from the `.zip` file directly.
+> **Important**: You must extract the files. The extension cannot be loaded directly from the `.zip` file.
 
 ### Step 3: Load the Extension in Chrome
 
