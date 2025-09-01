@@ -104,4 +104,4 @@ The extension is built with several components that work together:
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for new features or improvements, feel free to fork the repository and submit a pull request.
+Contributions are welcome! If you have ideas for new features or improvements, feel free to fork the repository and submit a pull request. 
